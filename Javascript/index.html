@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        "use strict";
+        let a='sarvesh';
+        console.log(a);
+
+        function hi(){
+            console.log("sarvesh hi");
+        }
+        let abc={
+            r:22,
+            m:56,
+            func: function myfunc(number){
+                console.log('The number is'+number);
+            }
+        }
+        document.addEventListener("click",function click(){
+            console.log("clicked");
+            // alert('hello')
+            let con=confirm("Are you sure");
+            console.log(con); 
+        })
+        let arr=[33,56,78,90];
+        // function myfunc(number){
+        //     console.log('This number is'+this);
+        // }
+        let myfunc= (number)=>{
+            console.log('This number is'+this);
+        }
+        myfunc();
+        setTimeout(() => {
+            console.log("yayyyyyyyyyy")
+        }, 1000);
+        console.log("niche wali script")
+    </script>
+</head>
+<body>
+    <h1>sarvesh here</h1>
+</body>
+</html>
